@@ -6,4 +6,5 @@ ip = st.text_input('Enter text:') #creates a text box in web app
 op = model_nb.predict([ip])
 if st.button('Predict'):
   st.title(op[0])
-  
+            
+          
